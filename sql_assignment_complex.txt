@@ -1,0 +1,2 @@
+1)	WRITE A SQL STATEMENT TO DISPLAY THE LOWEST PAID EMPLOYEE'S (NAME , SALARY , DEPARTMENT NAME)
+A) 	-> SELECT E.FIRST_NAME,min(E.SALARY),d.department_name from employees e, departments d;
